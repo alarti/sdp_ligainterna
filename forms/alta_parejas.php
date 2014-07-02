@@ -103,7 +103,7 @@ if(datos.TipoDni.value === ""){
         $setNombreApellido = $current_user->user_firstname . " " . $current_user->user_lastname;
         ?>
         <br><br>
-<fieldset style="width: 80%;margin-left: 10%;margin-right: 10%"><legend><strong>Inscripción de parejas</strong></legend>
+<fieldset style="width: 96%;margin-left: 2%;margin-right: 2%"><legend><strong>Inscripción de parejas</strong></legend>
     <form method="post" name="datos"  onsubmit="return validarForm(this);">
 <div>  <br>
     <br>

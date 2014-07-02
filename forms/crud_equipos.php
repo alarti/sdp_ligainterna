@@ -21,6 +21,7 @@ get_header();
 ?>
 <div id="primary" class="site-content">
     <div id="content" role="main">
+        <fieldset style="width: 96%;margin-left: 2%;margin-right: 2%"><legend><strong>Equipos</strong></legend>
         <?php
         #create an instance of the class
         $tblEquipos = new enarCRUD("Equipos", "wp_sdp_Equipos", "IdEquipo", "../class/enarCRUD.class/");
@@ -51,6 +52,7 @@ get_header();
         
 # establecemos en check
         $tblEquipos->defineCheckbox("Eliminado", "1", "0");
+        
 
 #i can define a relationship to another table
         #the 1st field is the fk in the table, the 2nd is the second table, the 3rd is the pk in the second table, the 4th is field i want to retrieve as the dropdown value

@@ -21,6 +21,7 @@ get_header();
 ?>
 <div id="primary" class="site-content">
     <div id="content" role="main">
+        <fieldset style="width: 96%;margin-left: 2%;margin-right: 2%"><legend><strong>Modalidades</strong></legend>
         <?php
         #create an instance of the class
         $tblModalidad = new enarCRUD("Modalidad", "wp_sdp_Modalidades", "IdModalidad",  "../class/enarCRUD.class/");

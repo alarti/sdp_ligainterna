@@ -22,6 +22,7 @@ get_header();
 ?>
 <div id="primary" class="site-content">
     <div id="content" role="main">
+        <fieldset style="width: 96%;margin-left: 2%;margin-right: 2%"><legend><strong>Instalaciones</strong></legend>
         <!-- A partir de aquí el código html de la página -->
         <?php
         #create an instance of the class
