@@ -13,9 +13,9 @@ require_once('../class/enarCRUD.class/preheader.php'); // <-- this include file 
 #the code for the class
 include_once ('../class/enarCRUD.class/enarCRUD.class.php'); // <-- this include file MUST go first before any HTML/output
 
-if (!is_user_logged_in() && !current_user_can('manage_options'))
+if (!is_user_logged_in() && !current_user_can('manage_options')){
     die('Si no eres administrador no puedes ver esta página.');
-
+}
 
 get_header();
 ?>
