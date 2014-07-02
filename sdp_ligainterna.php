@@ -444,6 +444,11 @@ function sdp_saml_authentication_options_page() {
                         <td><input type="checkbox" name="nav_menu" id="nav_menu" value="1" <?php checked('1', $options['nav_menu']); ?> />
                             <span class="setting-description">Activar Seguridad control de acceso por rol</span>
                         </td>
+                            <td>
+                            <div class="menu-rol">
+                                <input type="button" name="menu-rol" value="<?php _e('Control de Menu por Rol') ?>" onClick="window.location.href='/wp-admin/nav-menus.php' " />
+                            </div>
+                        </td>
                     </tr>
                 </table>
 
